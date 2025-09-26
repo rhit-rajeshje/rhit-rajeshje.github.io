@@ -1,0 +1,94 @@
+/*
+Dark green - #2a3418
+Dark Pink - #c68ba0
+Green - #68704b
+Rose- #d4b8b9
+Light Green - #5e7456
+White - #f2f5f1
+*/
+
+body{
+    font-family: "Enriqueta", serif;
+    background-color: #d0dacc;
+}
+
+/*https://www.w3schools.com/css/css3_image_center.asp*/
+.profilePic{
+    margin:auto;
+    display:block;
+    padding-bottom:20px;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.workSection{
+    height:80%;
+}
+
+.educationSection{
+    height:80%;
+}
+
+.workCard, .skillsCard, .educationCard {
+    background-color: #5e7456;
+    color: #f2f5f1;
+    margin:30px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:30px;
+    width:40%;
+}
+
+.workCard{
+    height:100%;
+}
+
+.skillsCard{
+    height:30%;
+}
+
+.educationCard{
+    height:85%
+}
+
+
+.workCard h3, .skillsCard h3, .educationCard h3{
+    background-color: #f2f5f1;
+    color: #5e7456;
+    text-align: center;
+    padding:10px;
+    margin-top:0px;
+}
+
+
+.project{
+    background-color: #4b5136;
+    color:#efe5e5;
+    margin:20px;
+    padding:20px;
+}
+
+nav,footer{
+    background-color: #2a3418;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    margin:0px;
+}
+
+nav a{
+    color: #d4b8b9;
+    padding:30px;
+    font-size: xx-large;
+}
+
+footer img{
+    width:50px;
+    height:50px;
+    padding:5px;
+}
+
