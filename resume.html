@@ -1,25 +1,21 @@
-<html>
+<html lang="en">
     <head>
-        <title>
-            Resume Page
-        </title>
+        <title>Resume Page</title>
         <link rel="stylesheet" href = "/styles/styles.css">
+        <!--Carson McCord helped with setting up a Google Font for the website-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!-- <nav>
-            <a href="index.html">Main</a>
-            <a href="resume.html">Resume</a>
-            <a href="portfolio.html">Portfolio</a>
-        </nav> -->
-        <script src="script/nav.js"></script>
-        <h1>Resume Content</h1>
+        <script src = "script/script.js"></script>
+        <nav id="#nav"></nav>
+        <main>
+        <h1 class="title">Resume Content</h1>
         <section>
-            <h2>Technology Knowledge</h2>
+            <h2 class="title">Technology Knowledge</h2>
             <div class="skillsSection">
-            <div class = "skillsCard" style="float:left">
+            <div class = "skillsCard left">
             <h3>Software Skills</h3>
             <ul>
                 <li>HTML</li>
@@ -31,7 +27,7 @@
                 <li>Microsoft Office</li>
             </ul>
             </div>
-            <div class = "skillsCard" style="float:right">
+            <div class = "skillsCard right">
             <h3>Personal Skills</h3>
             <ul>
                 <li>Team Management</li>
@@ -44,10 +40,10 @@
             </div>
             </div>
         </section>
-        <section style="clear:both">
-            <h2>Work Experience</h2>
+        <section >
+            <h2 class="title">Work Experience</h2>
             <div class = "workSection">
-            <div class="workCard" style="float: left">
+            <div class="workCard left">
                 <h3>Rose-Hulman Ventures</h3>
                 <h4>Type:</h4>
                 <p>Internship</p>
@@ -63,7 +59,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="workCard" style="float: right">
+            <div class="workCard right">
                 <h3>Noblitt Scholars Committee Co-Lead</h3>
                 <h4>Type:</h4>
                 <p>Extracurricular</p>
@@ -78,7 +74,7 @@
             </div>
             </div>
             <div class = "workSection">
-            <div class="workCard" style="float: left">
+            <div class="workCard left">
                 <h3>Rose-BUD Intern</h3>
                 <h4>Type:</h4>
                 <p>Extracurricular</p>
@@ -91,7 +87,7 @@
                     <li>Plan networking and professional development events for members, handle finances and attendance, and organize the annual mentorship program. </li>
                 </ul>
             </div>
-            <div class="workCard" style="float: right;">
+            <div class="workCard right">
                 <h3>WOLFPAC Officer</h3>
                 <h4>Type:</h4>
                 <p>Extracurricular</p>
@@ -107,7 +103,7 @@
             </div>
             </div>
             <div class="workSection">
-            <div class="workCard" style="float: left">
+            <div class="workCard left">
                 <h3>theCoderSchool</h3>
                 <h4>Type:</h4>
                 <p>Part-Time Job</p>
@@ -123,10 +119,10 @@
             </div>
             </div>
         </section>
-        <section style="clear:both">
-            <h2>Education Experience</h2>
+        <section>
+            <h2 class="title">Education Experience</h2>
             <div class="educationSection">
-            <div class="educationCard" style="float:left">
+            <div class="educationCard left">
                 <h3>Rose-Hulman Institute of Technology</h3>
                 <h4>Degree:</h4>
                 <p>Bachelor of Science, Computer Science</p>
@@ -145,7 +141,7 @@
                     <li>Computer Architecture I</li>
                 </ul>
             </div>
-            <div class="educationCard" style="float:right">
+            <div class="educationCard right">
                 <h3>Novi High School</h3>
                 <h4>Degree:</h4>
                 <p>High School Diploma</p>
@@ -163,16 +159,8 @@
                 </ul>
             </div>
             </div>
-            
         </section>
-        <!-- <footer>
-            <a href="#"><img src="handshake.jpg" alt = "Handshake Profile"></a>
-            <a href="#"><img src="linkedin.png" alt = "LinkedIn Profile"></a>
-            <a href="#"><img src="instagram.jpg" alt = "LinkedIn Profile"></a>
-        </footer> -->
-        <br style="clear:both">
-        <script  src="script/footer.js"></script>
-        <script src="script/hoverElements.js"></script>
-        
+    </main>
+        <footer id="#footer"></footer>
     </body>
 </html>

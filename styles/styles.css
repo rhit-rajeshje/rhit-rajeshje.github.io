@@ -1,4 +1,4 @@
-/*
+/* Common Color Scheme-
 Dark green - #2a3418
 Dark Pink - #c68ba0
 Green - #68704b
@@ -7,12 +7,18 @@ Light Green - #5e7456
 White - #f2f5f1
 */
 
+/*Main Page*/
+
 body{
     font-family: "Enriqueta", serif;
     background-color: #d0dacc;
 }
 
-/*https://www.w3schools.com/css/css3_image_center.asp*/
+/*
+In order to help me center the main profile picture, I referenced this following website-
+https://www.w3schools.com/css/css3_image_center.asp
+*/
+
 .profilePic{
     margin:auto;
     display:block;
@@ -21,25 +27,40 @@ body{
 
 .title{
     text-align: center;
+    color:#2a3418
 }
 
+/*Resume Page*/
 
-.workSection{
+section,footer{
+    clear:both;
+}
+
+.workSection, .educationSection{
     height:80%;
 }
 
-.educationSection{
-    height:80%;
+.left{
+    float: left;
+}
+
+.right{
+    float:right;
 }
 
 .workCard, .skillsCard, .educationCard {
-    background-color: #5e7456;
+    background-color: #44553F;
     color: #f2f5f1;
     margin:30px;
     padding-left:20px;
     padding-right:20px;
     padding-bottom:30px;
     width:40%;
+}
+
+.workCard:hover, .skillsCard:hover, .educationCard:hover{
+    background-color: #f2f5f1;
+    color: #44553F;
 }
 
 .workCard{
@@ -54,22 +75,54 @@ body{
     height:85%
 }
 
-
 .workCard h3, .skillsCard h3, .educationCard h3{
     background-color: #f2f5f1;
-    color: #5e7456;
+    color: #44553F;
     text-align: center;
     padding:10px;
     margin-top:0px;
 }
 
+/* Portfolio Page*/
 
-.project{
+.project, .faqPart{
     background-color: #4b5136;
     color:#efe5e5;
     margin:20px;
     padding:20px;
 }
+
+.question{
+    font-size: x-large;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.question:hover, .project a:visited{
+    color: #DBB3C0;
+}
+
+.answer{
+    display: none;
+}
+
+.project a{
+    color: #efe5e5;
+    display: block;
+}
+
+.projectImg1{
+    width:20%;
+    height:40%;
+}
+
+.projectImg2,.projectImg3{
+    width:30%;
+    height:30%;
+    padding-top:20px;
+}
+
+/*Navigation and Footer*/
 
 nav,footer{
     background-color: #2a3418;
@@ -84,6 +137,17 @@ nav a{
     color: #d4b8b9;
     padding:30px;
     font-size: xx-large;
+}
+
+nav a:hover, nav a:visited:hover{
+    background-color: #d4b8b9;
+    color: #2a3418;
+    padding:30px;
+    height:100%;
+}
+
+nav a:visited{
+    color:#d0dacc;
 }
 
 footer img{
